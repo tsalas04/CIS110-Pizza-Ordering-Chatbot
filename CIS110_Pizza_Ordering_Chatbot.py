@@ -12,7 +12,7 @@ size = input("\nWhat size do you want? Enter small, medium, or large:  ")
 while len(size) == 0:
     size = input("Invalid value! Please enter small, medium, or large:  ")
 
-flavor = input("\Enter the flavor of pizza  ")
+flavor = input("\nEnter the flavor of pizza  ")
 while len(flavor) == 0:
     flavor = input("Flavor cannot be blank! Please enter a flavor:  ")
 
